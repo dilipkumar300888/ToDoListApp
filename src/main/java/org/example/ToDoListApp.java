@@ -34,7 +34,7 @@ public class ToDoListApp {
                 case 3 -> markTaskAsComplete();
                 case 4 -> deleteTask();
                 case 5 -> {
-                    System.out.println("Exiting... Thank you!");
+                    System.out.println("Exiting... Thank you");
                     return;
                 }
                 default -> System.out.println("Invalid choice. Please try again.");
